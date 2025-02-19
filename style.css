@@ -16,18 +16,18 @@ body {
 .header {
     background-color: #2965f1;
     padding: 23px 0;
+}
+.span {
     font-weight: 700;
     font-size: 20px;
     color: #fff;
 }
-.section{
+.section-one {
     background-color: #fafaff;
-    height: 100%;
+    min-height: 100%;
+    padding: 60px 0;
 }
-.one {
-padding: 60px 0;
-}
-h1{
+.h1 {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
