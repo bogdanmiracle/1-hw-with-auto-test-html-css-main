@@ -39,7 +39,7 @@ header span {
     color: #303030;
 }
 .main-image{
-    width: 715px;
+    max-width: 715px;
 }
 .about-section {
     padding: 100px 0;
@@ -65,14 +65,12 @@ select {
 .frameworks-list {
     list-style-image: url("./images/solar_map-arrow-up-bold.svg");
     margin-left: 30px;
-    margin-bottom: 15px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
 }
 .books-list {
     margin-left: 30px;
-    margin-bottom: 15px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -98,37 +96,35 @@ select {
     font-weight: 700;
     font-size: 14px;
     color: #fff;
-    margin-bottom: 60px;
 }
 .line {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0px;
+    margin: 60px 0px 60px 0px;
 }
 table {
-    margin-top: 60px;
     border: 1px solid #95a1bb;
     border-collapse: collapse;
-}
-th, td {
-    border: 1px solid #95a1bb;
     width: 300px;
-    padding: 15px 10px;
-    font-weight: 400;
+    height: 196px;
     font-size: 14px;
-    color: #303030;
 }
-.table-title {
-    font-weight: 700;
-    font-size: 14px;
-    text-align: center;
+th {
+    padding: 10px 10px;
     color: #303030;
+    font-weight: 700;
+
+}
+td {
+    font-weight: 400;
+    padding: 10px 10px;
 }
 footer {
-    background: rgba(163, 167, 255, 0.3);
-    padding:25px 1361px 27px 1px;
+    background-color: rgba(163, 167, 255, 0.3);
+    padding:25px 0;
 }
-.footer-link{
+.footer-link {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
