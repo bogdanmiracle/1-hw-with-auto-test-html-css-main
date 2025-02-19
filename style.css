@@ -13,35 +13,35 @@ body {
      font-family: 'Inter', sans-serif;
      color:#303030;
 }
-.header {
+header {
     background-color: #2965f1;
     padding: 23px 0;
 }
-.span {
+header span {
     font-weight: 700;
     font-size: 20px;
     color: #fff;
 }
-.section {
+.main-section {
     background-color: #fafaff;
     min-height: 100%;
     padding: 60px 0;
 }
-h1 {
+.main-title {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
     margin-bottom: 20px;
 }
-.text{
+.main-text{
     font-weight: 400;
     font-size: 18px;
     color: #303030;
 }
-img {
+.main-image{
     width: 715px;
 }
-.two {
+.about-section {
     padding: 100px 0;
 }
 select {
@@ -56,13 +56,13 @@ select {
     color: #303030;
     padding: 9px 87px 9px 12px;
 }
-h2 {
+.section-title {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
     margin-bottom: 25px;
 }
-.list-item {
+.frameworks-list {
     list-style-image: url("./images/solar_map-arrow-up-bold.svg");
     margin-left: 30px;
     margin-bottom: 15px;
@@ -70,19 +70,19 @@ h2 {
     font-size: 16px;
     color: #303030;
 }
-.ol{
+.books-list {
     margin-left: 30px;
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
 }
-fieldset{
+.label {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
 }
-input[type="text"] {
+.text-field {
     width: 464px;
     height: 36px;
     font-weight: 400;
@@ -90,7 +90,7 @@ input[type="text"] {
     color: rgba(48, 48, 48, 0.2);
     padding: 9px 215px 8px 12px;
 }
-.button {
+.btn {
     border-radius: 5px;
     width: 125px;
     height: 36px;
@@ -100,7 +100,12 @@ input[type="text"] {
     color: #fff;
     margin-bottom: 60px;
 }
-.table{
+.line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+}
+table {
     margin-top: 60px;
     border: 1px solid #95a1bb;
     border-collapse: collapse;
@@ -119,11 +124,11 @@ th, td {
     text-align: center;
     color: #303030;
 }
-footer{
+footer {
     background: rgba(163, 167, 255, 0.3);
     padding:25px 1361px 27px 1px;
 }
-.footer {
+.footer-link{
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
