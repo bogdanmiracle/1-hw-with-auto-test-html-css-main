@@ -5,7 +5,6 @@
 }
 
 .container {
-    outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
     max-width: 1140px; /* 📍 Максимальная ширина для контейнера */
@@ -14,6 +13,7 @@
 body {
     font-family: "Inter", sans-serif;
     color: #303030;
+    min-width: 375px;
 }
 
 header {
@@ -209,4 +209,56 @@ footer {
 
 .footer-link:hover {
     text-decoration: underline;/* 📍 Стили для ссылки при наведении курсора */
+}
+@media (max-width: 1200px){
+    .container {
+        margin: 0px 20px;
+    }
+    .main-section {
+        margin-bottom: 100px;
+    }
+    .main-section .wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .main-image {
+        max-width: 728px;
+        margin-bottom: 60px;
+    }
+    .text-wrapper {
+        max-width: 560px;
+    }
+    .about-section {
+        margin: 20px 0;
+    }
+    .info-wrapper {
+        flex-direction: column;
+    }
+    .frameworks  {
+        margin-bottom: 60px;
+    }
+    .books{
+        margin-bottom: 60px;
+    }
+    .skills-wrapper {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 576px){
+    .main-section{
+        margin: 20px 0;
+    } 
+    .main-image{
+        margin-bottom: 40px;
+    }
+    .main-title{
+        font-size: 36px;
+    }
+    .wrapper{
+        margin-bottom: 50px;
+    }
+    .info-wrapper{
+        margin-bottom: 50px;
+    }
 }
